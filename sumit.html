@@ -1,0 +1,133 @@
+<html>
+<head><tittle>Result 2019</tittle>
+<script>
+/*
+var java_marks= parseInt(prompt("please enter your marks for java"));
+var javascript_marks= parseInt(prompt("please enter your marks for javascript"));
+var dotnet_marks= parseInt(prompt("please enter your marks for .net"));
+
+var total=java_marks+javascript_marks+dotnet_marks;
+document.write("Total marks: "+total+"<br/>");
+var average= total/3;
+document.write("Avrage:" +average+"<br/>");
+
+if(java_marks>=35 && javascript_marks>=35 && dotnet_marks>=35){
+	//document.write("Result: Pass");
+		if(average>=35 && average<60 )
+		{
+			document.write("Grade: C");
+		}
+		else if(average>=60 && average<70)
+		{
+			document.write("Grade: B");
+		}
+		else{
+			document.write("Grade: A");
+		}
+
+}
+else{
+
+	document.write("Result:Fail");
+}
+*/
+
+/*
+var n=prompt("Enter the number");
+for(var i=1; i<=n; i++){
+	document.write("Enter the number :"+i+"<br/>");
+}
+*/
+
+/*
+var n=prompt("Enter the number");
+var i=1;
+
+while(i<n){
+	document.write("Number is :"+i+"<br/>");
+	i++;
+}
+*/
+
+/*
+function display(){
+	alert("Hello Sumit ");
+}
+display();
+*/
+/*
+function add(x,y){ 
+	document.write((x+y)+"<br/>");
+}
+add(5,9);
+*/
+/*
+function add(x,y){ 
+	return x+y;
+}
+
+var result= add(10,862);
+document.write("Result of two number is :" +result);
+*/
+
+/*function fun1(){
+
+	var a="Hello";
+
+		function fun2(){
+			var b="Sumit";
+			document.write(a+" "+b);
+		}
+		return fun2();
+}
+	fun1();
+*/
+
+/*
+	function handleMouseoverEvent(x){
+		x.style.color="red";
+		x.style.backgroundColor="blue";
+		x.innerHTML="Mr Sumit Kumar Mehral"
+	}
+	function handleMouseoutEvent(y){
+		y.style.color="yellow";
+		y.style.backgroundColor="red";
+		y.innerHTML="Sumit Kumar"
+	}
+*/
+
+	/***** ERRRO
+	function calculate(a){
+			var x=parseInt(document.calcform.num1.value);
+			var y=parseInt(document.calcform.num2.value);
+			var z=document.calcform.result;
+
+			z.value=x+y;
+
+	}
+	*/
+	function handleOnChangeEvent(x){
+		document.bgColor=x;
+	}
+
+</script>
+</head>
+<body>
+	<!--<p onmouseover="handleMouseoverEvent(this)" onmouseout="handleMouseoutEvent(this)">Sumit Kumar</p>-->
+
+	<!--<form name="calcform">
+		Number1: <input type="text" name="num1"/><br/>
+		Number2: <input type="text" name="num2"/><br/>
+		Result: <input type="text" namr="result"/><br/>
+		<input type="button" name="add" value="Add" onclick="calculate(this)"/>
+	</form>
+-->
+		<select onchange="handleOnChangeEvent(this.value)">
+			<option value="">Change Color</option>
+			<option value="blue">Blue</option>
+			<option value="red">Red</option>
+			<option value="green">Green</option>
+
+		</select>
+</body>
+</html>
